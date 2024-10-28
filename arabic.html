@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic</title>
+</head>
+<link rel="stylesheet" href="/src/counter.css">
+<body>
+  <header>
+    <h4>Easy Count</h4>  
+    <div class="toggle">   
+      <label class="switch"> 
+       <input type="checkbox" checked onclick="myMode()" >
+       <span class="slider round"></span>
+      </label>
+      <span id="myMode">Light</span>
+      </div>
+  </header>    <fieldset>
+      <legend > بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْ, </legend>
+      <div>
+        <div id="counterArabic" >
+          <figure>
+            <img src="/src/images/incrememt circle up.svg" id="incrementIconArabic" alt="Increment Counter" style="cursor:pointer; width:120px;">
+             <figcaption>يبدأ
+            </figcaption>
+          </figure>
+          <input type="text" name="counter" id="outPutArabic" value="٠" readonly>
+    
+         <figure id="arabic-fig">
+          <img src="/src/images/reset.svg" id="resetIconArabic" alt="Reset Counter" style="cursor:pointer; width:50px;">
+            <figcaption>إعادة ضبط
+            </figcaption>
+          </figure>
+      </div>
+    </div>
+    </fieldset>
+    
+
+    
+    
+      <button id="myButton">Switch to English</button>
+      
+      <!-- <div class="toggle">   
+        <label class="switch"> 
+          <input type="checkbox" checked onclick="myMode()" >
+          <span class="slider round"></span>
+        </label>
+        <span id="myMode">Light</span>
+       </div> -->
+ 
+       <footer>
+        <p>&copy; 2024 hagbazz.</p>
+      </footer>
+      <script src="/src/arabic.js"></script>
+
+</body>
+  </html>

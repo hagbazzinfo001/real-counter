@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+</head>
+<link rel="stylesheet" href="/src/counter.css">
+<body>
+  <header>
+    <h4>Easy Count</h4>  
+    <div class="toggle">   
+      <label class="switch"> 
+       <input type="checkbox" checked onclick="myMode()" >
+       <span class="slider round"></span>
+      </label>
+      <span id="myMode">Light</span>
+      </div>
+  </header>
+       <fieldset>
+        <legend>Start Counting</legend>
+        <div class="fieldset-div">
+         <div id="counter2" >
+         <figure>
+           <img src="/src/images/incrememt circle up.svg" id="incrementIcon1" alt="Increment Counter" style="cursor:pointer; width:120px;">
+            <figcaption>Start</figcaption>
+         </figure>
+         <input type="text" name="counter" id="output1" value="0" readonly>
+        <figure>
+         <img src="/src/images/reset.svg" id="resetIcon1" alt="Reset Counter" style="cursor:pointer; width:50px;">
+           <figcaption>Reset</figcaption>
+         </figure>
+        </div>        
+        </div>
+         </fieldset> 
+ <button id="myButton"> Switch to Arabic </button>
+
+ <script src="src/counter.js"></script>
+ <footer>
+  <p>&copy; 2024 hagbazz.</p>
+</footer>
+
+</body>
+</html>
