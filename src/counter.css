@@ -242,3 +242,19 @@ header{
   justify-content: center;
   align-items: center;
 }
+.reset:hover{
+  transform: rotate(360deg);
+  transition: 1s ease;
+  cursor: grab;
+}
+.reset{
+cursor:pointer; 
+width:50px;
+}
+.increment:hover{
+  /* transform:skewY(30deg); */
+  transform: rotate(30deg);
+  transition: 1s ease;
+  cursor: grab;
+
+}
